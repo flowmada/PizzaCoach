@@ -23,10 +23,11 @@ class WatchConnectivityManager: NSObject, ObservableObject {
         }
     }
 
-    func sendSettings(firstRotation: Int, repeatInterval: Int) {
+    @discardableResult
+    func sendSettings(firstRotation: Int, repeatInterval: Int) -> Bool {
         guard WCSession.default.activationState == .activated else {
             print("WCSession not activated")
-            return
+            return false
         }
 
         let settings: [String: Any] = [
@@ -41,18 +42,22 @@ class WatchConnectivityManager: NSObject, ObservableObject {
                 // Fall back to updateApplicationContext if sendMessage fails
                 self.updateContext(with: settings)
             }
+            return true
         } else {
             // Use application context for background sync
-            updateContext(with: settings)
+            return updateContext(with: settings)
         }
     }
 
-    private func updateContext(with settings: [String: Any]) {
+    @discardableResult
+    private func updateContext(with settings: [String: Any]) -> Bool {
         do {
             try WCSession.default.updateApplicationContext(settings)
             print("Settings sent to Watch via context")
+            return true
         } catch {
             print("Error updating application context: \(error.localizedDescription)")
+            return false
         }
     }
 }
