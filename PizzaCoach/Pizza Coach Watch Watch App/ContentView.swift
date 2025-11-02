@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var showStartFlash = false
 
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 16) {
             Spacer()
 
             // Timer Display
@@ -21,46 +21,24 @@ struct ContentView: View {
                 .monospacedDigit()
                 .foregroundStyle(timerManager.isRunning ? .green : .primary)
 
-            // Status indicator
-            if timerManager.isRunning {
-                HStack(spacing: 4) {
-                    Circle()
-                        .fill(.green)
-                        .frame(width: 8, height: 8)
-                    Text("Running")
-                        .font(.caption2)
-                        .foregroundStyle(.secondary)
-                }
-            }
-
             Spacer()
 
-            // Button states based on timer running status
-            if timerManager.isRunning {
-                // Reset button - resets to 0:00 and keeps running
-                Button(action: resetTimer) {
-                    Label("Reset", systemImage: "arrow.counterclockwise")
-                        .font(.headline)
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(.orange)
-
-                // Stop button - stops and resets to 0:00
-                Button(action: stopTimer) {
-                    Label("Stop", systemImage: "stop.fill")
-                        .font(.subheadline)
-                }
-                .buttonStyle(.bordered)
-                .tint(.red)
-            } else {
-                // Start button - starts the timer
-                Button(action: startTimer) {
-                    Label("Start", systemImage: "play.fill")
-                        .font(.headline)
-                }
-                .buttonStyle(.borderedProminent)
-                .tint(.green)
+            // Start/Reset button - starts if stopped, resets if running
+            Button(action: startOrResetTimer) {
+                Label(timerManager.isRunning ? "Reset" : "Start",
+                      systemImage: timerManager.isRunning ? "arrow.counterclockwise" : "play.fill")
+                    .font(.headline)
             }
+            .buttonStyle(.borderedProminent)
+            .tint(timerManager.isRunning ? .orange : .green)
+
+            // Stop button - always visible, stops and resets to 0:00
+            Button(action: stopTimer) {
+                Label("Stop", systemImage: "stop.fill")
+                    .font(.headline)
+            }
+            .buttonStyle(.bordered)
+            .tint(.red)
 
             // Hidden button for double-clench gesture
             Button(action: handleDoubleClench) {
@@ -86,26 +64,20 @@ struct ContentView: View {
             WatchConnectivityManager.shared.timerManager = timerManager
         }
         .onReceive(NotificationCenter.default.publisher(for: .startPizzaTimer)) { _ in
-            if timerManager.isRunning {
-                resetTimer()
-            } else {
-                startTimer()
-            }
+            startOrResetTimer()
         }
         .onReceive(NotificationCenter.default.publisher(for: .stopPizzaTimer)) { _ in
             stopTimer()
         }
     }
 
-    private func startTimer() {
+    private func startOrResetTimer() {
         HapticManager.shared.playStartHaptic()
-        timerManager.start()
-        showFlash()
-    }
-
-    private func resetTimer() {
-        HapticManager.shared.playStartHaptic()
-        timerManager.reset()
+        if timerManager.isRunning {
+            timerManager.reset()
+        } else {
+            timerManager.start()
+        }
         showFlash()
     }
 
@@ -115,13 +87,7 @@ struct ContentView: View {
     }
 
     private func handleDoubleClench() {
-        if timerManager.isRunning {
-            // Reset to 0:00 and keep running
-            resetTimer()
-        } else {
-            // Start the timer
-            startTimer()
-        }
+        startOrResetTimer()
     }
 
     private func showFlash() {
