@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F142D192EB70B5800B2AAB9 /* Pizza Coach Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2F142CF92EB70B5600B2AAB9 /* Pizza Coach Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F142CD92EB70AED00B2AAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F142CC32EB70AEB00B2AAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F142CCA2EB70AEB00B2AAB9;
+			remoteInfo = PizzaCoach;
+		};
+		2F142CE32EB70AED00B2AAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F142CC32EB70AEB00B2AAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F142CCA2EB70AEB00B2AAB9;
+			remoteInfo = PizzaCoach;
+		};
+		2F142D062EB70B5700B2AAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F142CC32EB70AEB00B2AAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F142CF82EB70B5600B2AAB9;
+			remoteInfo = "Pizza Coach Watch Watch App";
+		};
+		2F142D102EB70B5800B2AAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F142CC32EB70AEB00B2AAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F142CF82EB70B5600B2AAB9;
+			remoteInfo = "Pizza Coach Watch Watch App";
+		};
+		2F142D172EB70B5800B2AAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F142CC32EB70AEB00B2AAB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F142CF82EB70B5600B2AAB9;
+			remoteInfo = "Pizza Coach Watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2F142D1D2EB70B5800B2AAB9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2F142D192EB70B5800B2AAB9 /* Pizza Coach Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2F142CCB2EB70AEB00B2AAB9 /* PizzaCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F142CD82EB70AED00B2AAB9 /* PizzaCoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaCoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F142CE22EB70AED00B2AAB9 /* PizzaCoachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaCoachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F142CF92EB70B5600B2AAB9 /* Pizza Coach Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza Coach Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F142D052EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pizza Coach Watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F142D0F2EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pizza Coach Watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2F142CCD2EB70AEB00B2AAB9 /* PizzaCoach */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PizzaCoach;
+			sourceTree = "<group>";
+		};
+		2F142CDB2EB70AED00B2AAB9 /* PizzaCoachTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PizzaCoachTests;
+			sourceTree = "<group>";
+		};
+		2F142CE52EB70AED00B2AAB9 /* PizzaCoachUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PizzaCoachUITests;
+			sourceTree = "<group>";
+		};
+		2F142CFA2EB70B5600B2AAB9 /* Pizza Coach Watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pizza Coach Watch Watch App";
+			sourceTree = "<group>";
+		};
+		2F142D082EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pizza Coach Watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		2F142D122EB70B5800B2AAB9 /* Pizza Coach Watch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Pizza Coach Watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F142CC82EB70AEB00B2AAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142CD52EB70AED00B2AAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142CDF2EB70AED00B2AAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142CF62EB70B5600B2AAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142D022EB70B5700B2AAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142D0C2EB70B5700B2AAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F142CC22EB70AEB00B2AAB9 = {
+			isa = PBXGroup;
+			children = (
+				2F142CCD2EB70AEB00B2AAB9 /* PizzaCoach */,
+				2F142CDB2EB70AED00B2AAB9 /* PizzaCoachTests */,
+				2F142CE52EB70AED00B2AAB9 /* PizzaCoachUITests */,
+				2F142CFA2EB70B5600B2AAB9 /* Pizza Coach Watch Watch App */,
+				2F142D082EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppTests */,
+				2F142D122EB70B5800B2AAB9 /* Pizza Coach Watch Watch AppUITests */,
+				2F142CCC2EB70AEB00B2AAB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F142CCC2EB70AEB00B2AAB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F142CCB2EB70AEB00B2AAB9 /* PizzaCoach.app */,
+				2F142CD82EB70AED00B2AAB9 /* PizzaCoachTests.xctest */,
+				2F142CE22EB70AED00B2AAB9 /* PizzaCoachUITests.xctest */,
+				2F142CF92EB70B5600B2AAB9 /* Pizza Coach Watch Watch App.app */,
+				2F142D052EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppTests.xctest */,
+				2F142D0F2EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F142CCA2EB70AEB00B2AAB9 /* PizzaCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F142CEC2EB70AED00B2AAB9 /* Build configuration list for PBXNativeTarget "PizzaCoach" */;
+			buildPhases = (
+				2F142CC72EB70AEB00B2AAB9 /* Sources */,
+				2F142CC82EB70AEB00B2AAB9 /* Frameworks */,
+				2F142CC92EB70AEB00B2AAB9 /* Resources */,
+				2F142D1D2EB70B5800B2AAB9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F142D182EB70B5800B2AAB9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2F142CCD2EB70AEB00B2AAB9 /* PizzaCoach */,
+			);
+			name = PizzaCoach;
+			packageProductDependencies = (
+			);
+			productName = PizzaCoach;
+			productReference = 2F142CCB2EB70AEB00B2AAB9 /* PizzaCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F142CD72EB70AED00B2AAB9 /* PizzaCoachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F142CEF2EB70AED00B2AAB9 /* Build configuration list for PBXNativeTarget "PizzaCoachTests" */;
+			buildPhases = (
+				2F142CD42EB70AED00B2AAB9 /* Sources */,
+				2F142CD52EB70AED00B2AAB9 /* Frameworks */,
+				2F142CD62EB70AED00B2AAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F142CDA2EB70AED00B2AAB9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2F142CDB2EB70AED00B2AAB9 /* PizzaCoachTests */,
+			);
+			name = PizzaCoachTests;
+			packageProductDependencies = (
+			);
+			productName = PizzaCoachTests;
+			productReference = 2F142CD82EB70AED00B2AAB9 /* PizzaCoachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F142CE12EB70AED00B2AAB9 /* PizzaCoachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F142CF22EB70AED00B2AAB9 /* Build configuration list for PBXNativeTarget "PizzaCoachUITests" */;
+			buildPhases = (
+				2F142CDE2EB70AED00B2AAB9 /* Sources */,
+				2F142CDF2EB70AED00B2AAB9 /* Frameworks */,
+				2F142CE02EB70AED00B2AAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F142CE42EB70AED00B2AAB9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2F142CE52EB70AED00B2AAB9 /* PizzaCoachUITests */,
+			);
+			name = PizzaCoachUITests;
+			packageProductDependencies = (
+			);
+			productName = PizzaCoachUITests;
+			productReference = 2F142CE22EB70AED00B2AAB9 /* PizzaCoachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2F142CF82EB70B5600B2AAB9 /* Pizza Coach Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F142D1A2EB70B5800B2AAB9 /* Build configuration list for PBXNativeTarget "Pizza Coach Watch Watch App" */;
+			buildPhases = (
+				2F142CF52EB70B5600B2AAB9 /* Sources */,
+				2F142CF62EB70B5600B2AAB9 /* Frameworks */,
+				2F142CF72EB70B5600B2AAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2F142CFA2EB70B5600B2AAB9 /* Pizza Coach Watch Watch App */,
+			);
+			name = "Pizza Coach Watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Pizza Coach Watch Watch App";
+			productReference = 2F142CF92EB70B5600B2AAB9 /* Pizza Coach Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F142D042EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F142D1E2EB70B5800B2AAB9 /* Build configuration list for PBXNativeTarget "Pizza Coach Watch Watch AppTests" */;
+			buildPhases = (
+				2F142D012EB70B5700B2AAB9 /* Sources */,
+				2F142D022EB70B5700B2AAB9 /* Frameworks */,
+				2F142D032EB70B5700B2AAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F142D072EB70B5700B2AAB9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2F142D082EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppTests */,
+			);
+			name = "Pizza Coach Watch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Pizza Coach Watch Watch AppTests";
+			productReference = 2F142D052EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F142D0E2EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F142D212EB70B5800B2AAB9 /* Build configuration list for PBXNativeTarget "Pizza Coach Watch Watch AppUITests" */;
+			buildPhases = (
+				2F142D0B2EB70B5700B2AAB9 /* Sources */,
+				2F142D0C2EB70B5700B2AAB9 /* Frameworks */,
+				2F142D0D2EB70B5700B2AAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F142D112EB70B5800B2AAB9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2F142D122EB70B5800B2AAB9 /* Pizza Coach Watch Watch AppUITests */,
+			);
+			name = "Pizza Coach Watch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Pizza Coach Watch Watch AppUITests";
+			productReference = 2F142D0F2EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F142CC32EB70AEB00B2AAB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2F142CCA2EB70AEB00B2AAB9 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2F142CD72EB70AED00B2AAB9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2F142CCA2EB70AEB00B2AAB9;
+					};
+					2F142CE12EB70AED00B2AAB9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2F142CCA2EB70AEB00B2AAB9;
+					};
+					2F142CF82EB70B5600B2AAB9 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2F142D042EB70B5700B2AAB9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2F142CF82EB70B5600B2AAB9;
+					};
+					2F142D0E2EB70B5700B2AAB9 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2F142CF82EB70B5600B2AAB9;
+					};
+				};
+			};
+			buildConfigurationList = 2F142CC62EB70AEB00B2AAB9 /* Build configuration list for PBXProject "PizzaCoach" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F142CC22EB70AEB00B2AAB9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2F142CCC2EB70AEB00B2AAB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F142CCA2EB70AEB00B2AAB9 /* PizzaCoach */,
+				2F142CD72EB70AED00B2AAB9 /* PizzaCoachTests */,
+				2F142CE12EB70AED00B2AAB9 /* PizzaCoachUITests */,
+				2F142CF82EB70B5600B2AAB9 /* Pizza Coach Watch Watch App */,
+				2F142D042EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppTests */,
+				2F142D0E2EB70B5700B2AAB9 /* Pizza Coach Watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F142CC92EB70AEB00B2AAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142CD62EB70AED00B2AAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142CE02EB70AED00B2AAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142CF72EB70B5600B2AAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142D032EB70B5700B2AAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142D0D2EB70B5700B2AAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F142CC72EB70AEB00B2AAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142CD42EB70AED00B2AAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142CDE2EB70AED00B2AAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142CF52EB70B5600B2AAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142D012EB70B5700B2AAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F142D0B2EB70B5700B2AAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F142CDA2EB70AED00B2AAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F142CCA2EB70AEB00B2AAB9 /* PizzaCoach */;
+			targetProxy = 2F142CD92EB70AED00B2AAB9 /* PBXContainerItemProxy */;
+		};
+		2F142CE42EB70AED00B2AAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F142CCA2EB70AEB00B2AAB9 /* PizzaCoach */;
+			targetProxy = 2F142CE32EB70AED00B2AAB9 /* PBXContainerItemProxy */;
+		};
+		2F142D072EB70B5700B2AAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F142CF82EB70B5600B2AAB9 /* Pizza Coach Watch Watch App */;
+			targetProxy = 2F142D062EB70B5700B2AAB9 /* PBXContainerItemProxy */;
+		};
+		2F142D112EB70B5800B2AAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F142CF82EB70B5600B2AAB9 /* Pizza Coach Watch Watch App */;
+			targetProxy = 2F142D102EB70B5800B2AAB9 /* PBXContainerItemProxy */;
+		};
+		2F142D182EB70B5800B2AAB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F142CF82EB70B5600B2AAB9 /* Pizza Coach Watch Watch App */;
+			targetProxy = 2F142D172EB70B5800B2AAB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F142CEA2EB70AED00B2AAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F142CEB2EB70AED00B2AAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F142CED2EB70AED00B2AAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6DJKLA22W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.flowmada.prototyping.PizzaCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F142CEE2EB70AED00B2AAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6DJKLA22W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.flowmada.prototyping.PizzaCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F142CF02EB70AED00B2AAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.flowmada.prototyping.PizzaCoachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaCoach.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PizzaCoach";
+			};
+			name = Debug;
+		};
+		2F142CF12EB70AED00B2AAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.flowmada.prototyping.PizzaCoachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaCoach.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PizzaCoach";
+			};
+			name = Release;
+		};
+		2F142CF32EB70AED00B2AAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.flowmada.prototyping.PizzaCoachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PizzaCoach;
+			};
+			name = Debug;
+		};
+		2F142CF42EB70AED00B2AAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.flowmada.prototyping.PizzaCoachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PizzaCoach;
+			};
+			name = Release;
+		};
+		2F142D1B2EB70B5800B2AAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pizza Coach Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = org.flowmada.prototyping.PizzaCoach;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.flowmada.prototyping.PizzaCoach.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		2F142D1C2EB70B5800B2AAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pizza Coach Watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = org.flowmada.prototyping.PizzaCoach;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.flowmada.prototyping.PizzaCoach.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		2F142D1F2EB70B5800B2AAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6DJKLA22W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.flowmada.prototyping.Pizza-Coach-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pizza Coach Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pizza Coach Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		2F142D202EB70B5800B2AAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6DJKLA22W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.flowmada.prototyping.Pizza-Coach-Watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pizza Coach Watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pizza Coach Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		2F142D222EB70B5800B2AAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6DJKLA22W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.flowmada.prototyping.Pizza-Coach-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Pizza Coach Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		2F142D232EB70B5800B2AAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S6DJKLA22W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.flowmada.prototyping.Pizza-Coach-Watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Pizza Coach Watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F142CC62EB70AEB00B2AAB9 /* Build configuration list for PBXProject "PizzaCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F142CEA2EB70AED00B2AAB9 /* Debug */,
+				2F142CEB2EB70AED00B2AAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F142CEC2EB70AED00B2AAB9 /* Build configuration list for PBXNativeTarget "PizzaCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F142CED2EB70AED00B2AAB9 /* Debug */,
+				2F142CEE2EB70AED00B2AAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F142CEF2EB70AED00B2AAB9 /* Build configuration list for PBXNativeTarget "PizzaCoachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F142CF02EB70AED00B2AAB9 /* Debug */,
+				2F142CF12EB70AED00B2AAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F142CF22EB70AED00B2AAB9 /* Build configuration list for PBXNativeTarget "PizzaCoachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F142CF32EB70AED00B2AAB9 /* Debug */,
+				2F142CF42EB70AED00B2AAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F142D1A2EB70B5800B2AAB9 /* Build configuration list for PBXNativeTarget "Pizza Coach Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F142D1B2EB70B5800B2AAB9 /* Debug */,
+				2F142D1C2EB70B5800B2AAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F142D1E2EB70B5800B2AAB9 /* Build configuration list for PBXNativeTarget "Pizza Coach Watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F142D1F2EB70B5800B2AAB9 /* Debug */,
+				2F142D202EB70B5800B2AAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F142D212EB70B5800B2AAB9 /* Build configuration list for PBXNativeTarget "Pizza Coach Watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F142D222EB70B5800B2AAB9 /* Debug */,
+				2F142D232EB70B5800B2AAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F142CC32EB70AEB00B2AAB9 /* Project object */;
+}
