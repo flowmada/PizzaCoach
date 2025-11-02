@@ -58,9 +58,15 @@ struct ContentView: View {
                     if showingSaved {
                         HStack {
                             Spacer()
-                            Label("Saved & synced to Watch", systemImage: "checkmark.circle.fill")
-                                .foregroundStyle(.green)
-                                .font(.subheadline)
+                            if connectivityManager.isReachable {
+                                Label("Saved & synced to Watch", systemImage: "checkmark.circle.fill")
+                                    .foregroundStyle(.green)
+                                    .font(.subheadline)
+                            } else {
+                                Label("Saved (Watch not connected)", systemImage: "checkmark.circle.fill")
+                                    .foregroundStyle(.orange)
+                                    .font(.subheadline)
+                            }
                             Spacer()
                         }
                     }
