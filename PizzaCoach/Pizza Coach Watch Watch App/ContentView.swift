@@ -35,17 +35,35 @@ struct ContentView: View {
 
             Spacer()
 
-            // Stop/Reset Button
-            Button(action: stopTimer) {
-                Label("Stop", systemImage: "stop.fill")
-                    .font(.headline)
+            // Button states based on timer running status
+            if timerManager.isRunning {
+                // Reset button - resets to 0:00 and keeps running
+                Button(action: resetTimer) {
+                    Label("Reset", systemImage: "arrow.counterclockwise")
+                        .font(.headline)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.orange)
+
+                // Stop button - stops and resets to 0:00
+                Button(action: stopTimer) {
+                    Label("Stop", systemImage: "stop.fill")
+                        .font(.subheadline)
+                }
+                .buttonStyle(.bordered)
+                .tint(.red)
+            } else {
+                // Start button - starts the timer
+                Button(action: startTimer) {
+                    Label("Start", systemImage: "play.fill")
+                        .font(.headline)
+                }
+                .buttonStyle(.borderedProminent)
+                .tint(.green)
             }
-            .buttonStyle(.borderedProminent)
-            .tint(.red)
-            .disabled(!timerManager.isRunning)
 
             // Hidden button for double-clench gesture
-            Button(action: startNewPizza) {
+            Button(action: handleDoubleClench) {
                 EmptyView()
             }
             .frame(width: 0, height: 0)
@@ -68,18 +86,45 @@ struct ContentView: View {
             WatchConnectivityManager.shared.timerManager = timerManager
         }
         .onReceive(NotificationCenter.default.publisher(for: .startPizzaTimer)) { _ in
-            startNewPizza()
+            if timerManager.isRunning {
+                resetTimer()
+            } else {
+                startTimer()
+            }
         }
         .onReceive(NotificationCenter.default.publisher(for: .stopPizzaTimer)) { _ in
             stopTimer()
         }
     }
 
-    private func startNewPizza() {
+    private func startTimer() {
         HapticManager.shared.playStartHaptic()
-        timerManager.resetAndStart()
+        timerManager.start()
+        showFlash()
+    }
 
-        // Show visual feedback
+    private func resetTimer() {
+        HapticManager.shared.playStartHaptic()
+        timerManager.reset()
+        showFlash()
+    }
+
+    private func stopTimer() {
+        HapticManager.shared.playStopHaptic()
+        timerManager.stop()
+    }
+
+    private func handleDoubleClench() {
+        if timerManager.isRunning {
+            // Reset to 0:00 and keep running
+            resetTimer()
+        } else {
+            // Start the timer
+            startTimer()
+        }
+    }
+
+    private func showFlash() {
         withAnimation(.easeInOut(duration: 0.3)) {
             showStartFlash = true
         }
@@ -89,11 +134,6 @@ struct ContentView: View {
                 showStartFlash = false
             }
         }
-    }
-
-    private func stopTimer() {
-        HapticManager.shared.playStopHaptic()
-        timerManager.stop()
     }
 }
 

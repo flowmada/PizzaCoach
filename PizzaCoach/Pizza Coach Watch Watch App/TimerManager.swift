@@ -49,19 +49,22 @@ class TimerManager: ObservableObject {
         isRunning = false
         timer?.cancel()
         timer = nil
-        reset()
+        resetTime()
     }
 
     func reset() {
+        // Reset timer to 0:00 while keeping it running
+        if isRunning {
+            startTime = Date()
+            resetTime()
+        }
+    }
+
+    private func resetTime() {
         elapsedTime = 0
         formattedTime = "0:00"
         hasTriggeredFirstRotation = false
         lastHapticTime = 0
-    }
-
-    func resetAndStart() {
-        stop()
-        start()
     }
 
     private func updateTime() {
